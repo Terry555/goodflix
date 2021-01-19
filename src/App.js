@@ -1,12 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import SomeThing from './components/SomeThing';
+import Welcome from './components/Welcome';
+import Form from './components/Form'
 
 function App() {
   return (
     <div className="App">
-      <h1>GoodFlix</h1>
-      <SomeThing/>
+      <div className="Header">Testing</div>
+        <div>
+          <h1>GoodFlix</h1>
+          <Form/>
+          <Welcome/>
+        </div>
     </div>
   );
 }

@@ -1,8 +1,9 @@
 .App {
   text-align: center;
+  background-color: purple;
+  color: orange;
 }
 
-body {
-  background-color: yellow;
-  color: orange;
+.Header {
+  background-color: green;
 }
